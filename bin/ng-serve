@@ -1,1 +1,1 @@
-cd frontend && ng serve --output-path=../public/
+cd frontend && ng serve
