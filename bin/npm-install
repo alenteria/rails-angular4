@@ -1,2 +1,1 @@
-cd frontend && npm install
-cd ../
+cd frontend && npm install $1 $2 $3 && cd ../
