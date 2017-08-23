@@ -1,24 +1,16 @@
 # Bootstrap Ruby on rails & Angular 4
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Starter app for ruby on rails and angular 4
 
-Things you may want to cover:
+### Software Requirements
+  * NodeJs v6.10.3
+  * Ruby on Rails 5.1.3
+  * angular-cli 1.3.1
 
-* Ruby version
+### Getting Started
+  git clone git@github.com:alenteria/rails-angular4.git
+  cd rails-angular4
+  bin/bundle
+  bin/ng-serve
+  bin/ng-build
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
