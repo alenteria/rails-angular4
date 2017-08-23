@@ -11,6 +11,9 @@ Starter app for ruby on rails and angular 4
     git clone git@github.com:alenteria/rails-angular4.git
     cd rails-angular4
     bin/bundle
+    rails s
     bin/ng-serve
-    bin/ng-build
+    open http://localhost:4200/
+    bin/ng-build #to compile angularjs codes to public/ for production
 
+Note: In development mode, you need to run rails s and bin/ng-serve. For production you only need rails server, compiled angular codes in public directory will be automatically accessible after bin/ng-build.
