@@ -2,13 +2,13 @@ import { Component, Input, OnInit  } from '@angular/core';
 import { ActivatedRoute, ParamMap } from '@angular/router';
 import { Location }  from '@angular/common';
 import 'rxjs/add/operator/switchMap';
-import { Hero } from './hero';
-import { HeroService } from './hero.service';
+import { Hero } from '../hero';
+import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'hero-detail',
-  templateUrl: './hero-detail.component.html',
-  styleUrls: ['hero-detail.component.css']
+  templateUrl: './component.html',
+  styleUrls: ['./component.css']
 })
 
 export class HeroDetailComponent implements OnInit {

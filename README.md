@@ -1,4 +1,4 @@
-# Single Page App CMS in Ruby on rails with Twitter bootstrap 3 and Angular 4
+# Bootstrap Ruby on rails & Angular 4
 
 This README would normally document whatever steps are necessary to get the
 application up and running.

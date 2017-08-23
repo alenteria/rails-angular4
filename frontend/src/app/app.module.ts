@@ -3,11 +3,12 @@ import { RouterModule }   from '@angular/router';
 import { NgModule } from '@angular/core';
 import { FormsModule }   from '@angular/forms';
 import { AppComponent } from './app.component';
-import { HeroesComponent } from './heroes.component';
-import { HeroDetailComponent } from './hero-detail.component';
-import { DashboardComponent } from './dashboard.component';
-import { HeroService } from './hero.service';
+import { HeroesComponent } from './heroes/component';
+import { HeroDetailComponent } from './heroes/hero-detail/component';
+import { DashboardComponent } from './dashboard/component';
+import { HeroService } from './heroes/hero.service';
 import { AppRoutingModule }     from './app-routing.module';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AppRoutingModule }     from './app-routing.module';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccordionModule.forRoot()
   ],
   providers: [HeroService],
   bootstrap: [AppComponent]

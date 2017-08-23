@@ -7,8 +7,8 @@ import { OnInit } from '@angular/core';
 
 @Component({
   selector: 'my-heroes',
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+  templateUrl: './component.html',
+  styleUrls: ['./component.css']
 })
 
 export class HeroesComponent implements OnInit {
