@@ -18,3 +18,5 @@
 !/tmp/.keep
 
 .byebug_history
+/frontend/node_modules/*
+/public/*

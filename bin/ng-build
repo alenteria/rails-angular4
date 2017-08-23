@@ -1,1 +1,1 @@
-cd frontend && ng build --output-path=../public/
+cd frontend && ng build --prod --output-path=../public/
