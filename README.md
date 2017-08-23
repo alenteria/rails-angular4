@@ -8,9 +8,9 @@ Starter app for ruby on rails and angular 4
   * angular-cli 1.3.1
 
 ### Getting Started
-  git clone git@github.com:alenteria/rails-angular4.git
-  cd rails-angular4
-  bin/bundle
-  bin/ng-serve
-  bin/ng-build
+    git clone git@github.com:alenteria/rails-angular4.git
+    cd rails-angular4
+    bin/bundle
+    bin/ng-serve
+    bin/ng-build
 
